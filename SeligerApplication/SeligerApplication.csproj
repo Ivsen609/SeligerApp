@@ -43,6 +43,37 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\img\1session\artkvadrat.png" />
+    <Content Include="Resources\img\1session\begizamnoy.jpg" />
+    <Content Include="Resources\img\1session\komanda2018.jpg" />
+    <Content Include="Resources\img\1session\logo1.png" />
+    <Content Include="Resources\img\1session\tehnologiyadobra.jpg" />
+    <Content Include="Resources\img\2session\infopotok.jpg" />
+    <Content Include="Resources\img\2session\innovacii.png" />
+    <Content Include="Resources\img\2session\logo2.png" />
+    <Content Include="Resources\img\2session\molodejnoesamoupravlenie.png" />
+    <Content Include="Resources\img\2session\predprinimatelstvo.jpg" />
+    <Content Include="Resources\img\2session\vsedoma.jpg" />
+    <Content Include="Resources\img\3session\ecomol.jpg" />
+    <Content Include="Resources\img\3session\ekonomikabuduchego.png" />
+    <Content Include="Resources\img\3session\logo3.png" />
+    <Content Include="Resources\img\3session\molodejniiturizm.jpg" />
+    <Content Include="Resources\img\3session\molodiedizaineri.jpg" />
+    <Content Include="Resources\img\3session\molodieuristi.jpg" />
+    <Content Include="Resources\img\3session\regionirossii.jpg" />
+    <Content Include="Resources\img\3session\selogerinternational.jpg" />
+    <Content Include="Resources\img\3session\studencheskieorganizacii.png" />
+    <Content Include="Resources\img\4session\bibliotekabuduchego.jpg" />
+    <Content Include="Resources\img\4session\duhovnaiarossia.jpg" />
+    <Content Include="Resources\img\4session\kazachiamolodej.png" />
+    <Content Include="Resources\img\4session\logo4.png" />
+    <Content Include="Resources\img\4session\patrioticheskieklubi.jpg" />
+    <Content Include="Resources\img\4session\rabotauchayamolodej.jpg" />
+    <Content Include="Resources\img\4session\russkayapravda.jpg" />
+    <Content Include="Resources\img\4session\uchitelbuduchego.png" />
+    <Content Include="Resources\img\4session\vdvigenii.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

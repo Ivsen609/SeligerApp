@@ -47,25 +47,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activity1.cs" />
-    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="MainAdapter.cs" />
+    <Compile Include="MainScreen.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Resources\Screens\SimpleListItem1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Layout\Main.axml" />
+    <AndroidResource Include="Resources\Layout\MainHeaders.axml" />
+    <AndroidResource Include="Resources\Layout\MainSections.axml" />
+    <AndroidResource Include="Resources\Layout\SimpleListItem1.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\Icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\Drawable\l1artkvadrat.png" />
+    <AndroidResource Include="Resources\Drawable\l1begizamnoy.jpg" />
+    <AndroidResource Include="Resources\Drawable\l1komanda2018.jpg" />
+    <AndroidResource Include="Resources\Drawable\l1tehnologiyadobra.jpg" />
+    <AndroidResource Include="Resources\Drawable\l2infopotok.jpg" />
+    <AndroidResource Include="Resources\Drawable\l2innovacii.png" />
+    <AndroidResource Include="Resources\Drawable\l2molodejnoesamoupravlenie.png" />
+    <AndroidResource Include="Resources\Drawable\l2predprinimatelstvo.jpg" />
+    <AndroidResource Include="Resources\Drawable\l2vsedoma.jpg" />
+    <AndroidResource Include="Resources\Drawable\l3ecomol.jpg" />
+    <AndroidResource Include="Resources\Drawable\l3ekonomikabuduchego.png" />
+    <AndroidResource Include="Resources\Drawable\l3molodejniiturizm.jpg" />
+    <AndroidResource Include="Resources\Drawable\l3molodiedizaineri.jpg" />
+    <AndroidResource Include="Resources\Drawable\l3molodieuristi.jpg" />
+    <AndroidResource Include="Resources\Drawable\l3regionirossii.jpg" />
+    <AndroidResource Include="Resources\Drawable\l3selogerinternational.jpg" />
+    <AndroidResource Include="Resources\Drawable\l3studencheskieorganizacii.png" />
+    <AndroidResource Include="Resources\Drawable\l4bibliotekabuduchego.jpg" />
+    <AndroidResource Include="Resources\Drawable\l4duhovnaiarossia.jpg" />
+    <AndroidResource Include="Resources\Drawable\l4kazachiamolodej.png" />
+    <AndroidResource Include="Resources\Drawable\l4patrioticheskieklubi.jpg" />
+    <AndroidResource Include="Resources\Drawable\l4rabotauchayamolodej.jpg" />
+    <AndroidResource Include="Resources\Drawable\l4russkayapravda.jpg" />
+    <AndroidResource Include="Resources\Drawable\l4uchitelbuduchego.png" />
+    <AndroidResource Include="Resources\Drawable\l4vdvigenii.jpg" />
+    <AndroidResource Include="Resources\Drawable\Icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
