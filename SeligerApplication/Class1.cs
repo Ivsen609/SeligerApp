@@ -7,5 +7,6 @@ namespace SeligerApplication
 {
     public class Class1
     {
+	//
     }
 }
